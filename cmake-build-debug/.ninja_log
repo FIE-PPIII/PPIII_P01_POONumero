@@ -1,3 +1,6 @@
 # ninja log v5
 1	528	6720008358798898	CMakeFiles/base_cpp.dir/main.cpp.obj	908441f555e2c786
 531	709	6720008360517273	base_cpp.exe	a6868f942d72195
+4	221	6720026170354874	CMakeFiles/base_cpp.dir/Natural.cpp.obj	9c334f73769de93
+19	532	6720026173479143	CMakeFiles/base_cpp.dir/main.cpp.obj	908441f555e2c786
+533	727	6720026175509918	base_cpp.exe	965d050a66ca4865
