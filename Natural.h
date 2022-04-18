@@ -17,7 +17,7 @@ public:
     int getNatural();
     bool isOne();
     bool isPrime();
-    bool isCompound();
+    bool isComposite();
     bool isNatural();
     void sum(int num);
     void sum(Natural num);

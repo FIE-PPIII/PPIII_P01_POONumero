@@ -33,3 +33,9 @@ bool Natural::isPrime() {
 
     return true;
 }
+
+bool Natural::isComposite() {
+    if (this->isOne() || this->isPrime())
+        return false;
+    return true;
+}
