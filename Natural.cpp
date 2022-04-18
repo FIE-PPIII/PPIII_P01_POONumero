@@ -18,3 +18,18 @@ void Natural::multiply(Natural num) {
     this->value = this->value * num.value;
 }
 
+bool Natural::isPrime() {
+    if (this->value == 2 || this->value == 3)
+        return true;
+
+    if (this->value <= 1 || this->value % 2 == 0 || this->value % 3 == 0)
+        return false;
+
+    for (int i = 5; i * i <= this->value; i += 6)
+    {
+        if (this->value % i == 0 || this->value % (i + 2) == 0)
+            return false;
+    }
+
+    return true;
+}
