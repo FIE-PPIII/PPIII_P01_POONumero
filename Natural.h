@@ -11,6 +11,7 @@ private:
     int value;
 public:
 
+    Natural();
     Natural(int value);
     ~Natural();
     void setNatural(int num);
@@ -47,7 +48,7 @@ inline void Natural::multiply(int num) {
 }
 
 inline bool Natural::isNatural() {
-    return true;
+    return this->value >= 1;
 }
 
 #endif //BASE_CPP_NATURAL_H

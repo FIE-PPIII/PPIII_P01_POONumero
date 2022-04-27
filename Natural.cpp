@@ -6,9 +6,15 @@
 
 using namespace std;
 
+Natural::Natural(){
+    this->value = 1;
+}
+
 Natural::Natural(int value) {
     this->value = value;
 }
+
+Natural::~Natural(){}
 
 void Natural::sum(Natural num) {
     this->value = this->value + num.value;
